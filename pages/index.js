@@ -1,3 +1,4 @@
+import Banner from "../Components/Banner/banner";
 
 
 export default function Home() {
