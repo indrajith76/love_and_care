@@ -1,0 +1,7 @@
+.reviewContainer {
+    padding: 70px 20px;
+    display: flex;
+    align-items: center;
+    background-image: url(../public/ReviewImg/bg.png);
+    border-radius: 20px;
+}
