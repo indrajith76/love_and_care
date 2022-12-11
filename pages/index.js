@@ -1,13 +1,14 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Banner from "../Components/Banner/banner";
-import NewsAndHappiness from "../Components/NewsAndHappiness/newsAndHappiness";
-import SupportPartner from "../Components/SupportPartner/supportPartner";
 
 export default function Home() {
   return (
     <div>
-      <Banner />
-      <NewsAndHappiness />
-      <SupportPartner />
+      <h1>This is Saurav Mondal</h1>
+      <h1>This is Samrat Joydhar</h1>
+      <h1>This is Shohug Mahbub</h1>
     </div>
   );
 }
