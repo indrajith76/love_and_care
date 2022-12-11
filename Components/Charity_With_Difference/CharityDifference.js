@@ -20,7 +20,7 @@ const CharityDifference = () => {
                 </p>
             </div>
             <div className="grid gap-7 row-gap-5 lg:grid-cols-3">
-                <div data-aos="fade-right" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
+                <div data-aos="fade-up" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
                     <div className="h-80 relative flex justify-center items-center">
                         <div className="" style={{
                             backgroundImage: `url('https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/feature-v1-1-bg.png')`,
@@ -80,7 +80,7 @@ const CharityDifference = () => {
                         </button>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
+                <div data-aos="fade-up" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
                     <div className="h-80 relative flex justify-center items-center">
                         <div className="" style={{
                             backgroundImage: `url('https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/feature-v1-1-bg.png')`,
