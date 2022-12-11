@@ -25,7 +25,7 @@ const Banner = () => {
                                 <p className='lg:text-xl'>Change the life, Change the world</p>
                                 <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
                             </div>
-                            <hr data-aos="fade-right" className='border border-red-600 my-7' />
+                            <hr className='border border-red-600 my-7' />
                             <div>
                                 <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
                                 <button className='btn text-white btn-warning mr-5 '>How We Help</button>
@@ -41,7 +41,7 @@ const Banner = () => {
                                 <p className='lg:text-xl'>Change the life, Change the world</p>
                                 <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
                             </div>
-                            <hr data-aos="fade-right" className='border border-red-600 my-7' />
+                            <hr className='border border-red-600 my-7' />
                             <div>
                                 <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
                                 <button className='btn  text-white btn-warning mr-5 '>How We Help</button>
@@ -57,7 +57,7 @@ const Banner = () => {
                                 <p className='lg:text-xl'>Change the life, Change the world</p>
                                 <h2 className='text-3xl lg:text-8xl font-bold'>Every Good <br /> Act Is A Charity</h2>
                             </div>
-                            <hr data-aos="fade-right" className='border border-red-600 my-7' />
+                            <hr className='border border-red-600 my-7' />
                             <div>
                                 <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
                                 <button className='btn  text-white btn-warning mr-5 '>How We Help</button>
