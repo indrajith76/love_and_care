@@ -12,12 +12,12 @@ const ourMission = () => {
 			<h2 className="text-5xl font-bold py-5">Our Mission & Goals</h2>
 
 			<div className="grid md:grid-cols-2 sm:grid-cols-1 py-6 text-start">
-				<div>
+				<div data-aos="fade-right">
 					<Image className="img-fluid w-full" src={mission1}></Image>
 				</div>
 
-				<div className=" md:-ml-24">
-					<div className="card bg-base-100 shadow-xl py-12 rounded rounded-0">
+				<div data-aos="fade-left" className="md:mt-12 md:-ml-32">
+					<div className="card bg-base-100 shadow-xl py-5 rounded rounded-0">
 						<div className="card-body">
 							<div className="flex ">
 								<Image className="mx-4" src={mission2}></Image>
