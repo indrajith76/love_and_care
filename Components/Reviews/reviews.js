@@ -8,7 +8,7 @@ import styles from '../../styles/Review.module.css';
 const Reviews = () => {
     SwiperCore.use(Autoplay)
     return (
-        <div className="lg:px-12 my-12 max-w-[1140px]">
+        <div className="lg:px-12 my-12 max-w-[1140px] mx-auto">
             <Swiper
                 grabCursor={true}
                 effect={"creative"}
