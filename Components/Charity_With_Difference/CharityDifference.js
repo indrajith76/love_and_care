@@ -9,7 +9,7 @@ const CharityDifference = () => {
 
     }
     return (
-        <div className="bg-white px-4 py-16 mx-auto w-full md:px-24 lg:px-8 lg:py-20">
+        <div  className="bg-white px-4 py-16 mx-auto w-full md:px-24 lg:px-8 lg:py-20">
             <div className="relative  mb-8 mx-auto text-center md:mb-20 w-full">
                 <div style={styling}></div>
                 <p className={`absolute top-5 left-0.5 right-0.5  text-red-500 text-md md:text-2xl font-semibold tracking-wide uppercase `}>
@@ -20,7 +20,7 @@ const CharityDifference = () => {
                 </p>
             </div>
             <div className="grid gap-7 row-gap-5 lg:grid-cols-3">
-                <div className="hover:border-b-2 border-red-600 rounded shadow-2xl">
+                <div data-aos="fade-right" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
                     <div className="h-80 relative flex justify-center items-center">
                         <div className="" style={{
                             backgroundImage: `url('https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/feature-v1-1-bg.png')`,
@@ -50,7 +50,7 @@ const CharityDifference = () => {
                         </button>
                     </div>
                 </div>
-                <div className="hover:border-b-2 border-red-600 rounded shadow-2xl">
+                <div data-aos="fade-up" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
                     <div className="h-80 relative flex justify-center items-center">
                         <div className="" style={{
                             backgroundImage: `url('https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/feature-v1-1-bg.png')`,
@@ -80,7 +80,7 @@ const CharityDifference = () => {
                         </button>
                     </div>
                 </div>
-                <div className="hover:border-b-2 border-red-600 rounded shadow-2xl">
+                <div data-aos="fade-left" className="hover:border-b-2 border-red-600 rounded shadow-2xl">
                     <div className="h-80 relative flex justify-center items-center">
                         <div className="" style={{
                             backgroundImage: `url('https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/feature-v1-1-bg.png')`,
