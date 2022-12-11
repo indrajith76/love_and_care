@@ -15,42 +15,54 @@ const Banner = () => {
                 modules={[EffectFade]} effect="fade"
                 loop={true}
                 autoplay={{
-                    delay: 2000
+                    delay: 3000
                 }}
             >
                 <SwiperSlide>
-                    <div className={styles.slide1}>
-                        <div className='lg:w-2/3'>
-                            <p className='lg:text-xl'>Change the life, Change the world</p>
-                            <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
+                    <div className={`${styles.slide1} max-h-[800px]`}>
+                        <div className='lg:w-2/3 container mx-auto px-5' data-aos="fade-down">
+                            <div>
+                                <p className='lg:text-xl'>Change the life, Change the world</p>
+                                <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
+                            </div>
                             <hr className='border border-red-600 my-7' />
-                            <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
-                            <button className='btn text-white btn-warning mr-5 '>How We Help</button>
-                            <button className='btn  text-white btn-error'>Support Us</button>
+                            <div>
+                                <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
+                                <button className='btn text-white btn-warning mr-5 '>How We Help</button>
+                                <button className='btn  text-white btn-error'>Support Us</button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={styles.slide2}>
-                        <div className='lg:w-2/3'>
-                            <p className='lg:text-xl'>Change the life, Change the world</p>
-                            <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
+                    <div className={`${styles.slide2} max-h-[800px]`}>
+                        <div className='lg:w-2/3 container mx-auto px-5' data-aos="fade-down">
+                            <div>
+                                <p className='lg:text-xl'>Change the life, Change the world</p>
+                                <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
+                            </div>
                             <hr className='border border-red-600 my-7' />
-                            <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
-                            <button className='btn  text-white btn-warning mr-5 '>How We Help</button>
-                            <button className='btn  text-white btn-error'>Support Us</button>
+                            <div>
+                                <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
+                                <button className='btn  text-white btn-warning mr-5 '>How We Help</button>
+                                <button className='btn  text-white btn-error'>Support Us</button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={styles.slide3}>
-                        <div className='lg:w-2/3'>
-                            <p className='lg:text-xl'>Change the life, Change the world</p>
-                            <h2 className='text-3xl lg:text-8xl font-bold'>Every Good <br /> Act Is A Charity</h2>
+                    <div className={`${styles.slide3} max-h-[800px]`}>
+                        <div className='lg:w-2/3 container mx-auto px-5' data-aos="fade-down">
+                            <div>
+                                <p className='lg:text-xl'>Change the life, Change the world</p>
+                                <h2 className='text-3xl lg:text-8xl font-bold'>Every Good <br /> Act Is A Charity</h2>
+                            </div>
                             <hr className='border border-red-600 my-7' />
-                            <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
-                            <button className='btn  text-white btn-warning mr-5 '>How We Help</button>
-                            <button className='btn  text-white btn-error'>Support Us</button>
+                            <div>
+                                <p className='lg:text-2xl mb-5'>We've been tackling poverty in communities to build better lives</p>
+                                <button className='btn  text-white btn-warning mr-5 '>How We Help</button>
+                                <button className='btn  text-white btn-error'>Support Us</button>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
