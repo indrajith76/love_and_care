@@ -1,7 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { BsCheckCircleFill } from "react-icons/bs";
+import {
+  BsCheckCircleFill,
+  BsFacebook,
+  BsInstagram,
+  BsLinkedin,
+  BsTelephone,
+  BsTelephoneFill,
+  BsTwitter,
+} from "react-icons/bs";
+import { ImLocation } from "react-icons/im";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +45,47 @@ const Header = () => {
     </>
   );
   return (
-    <div>
+    <div className="sticky top-0 z-40 bg-[#ffffffd7] ">
+      <div className="bg-slate-700">
+        <div className="flex flex-col lg:flex-row lg:justify-between container mx-auto py-3 px-5">
+          <div className="flex justify-center items-center gap-5">
+            <Link className="font-bold text-lg" href="">
+              Follow Us
+            </Link>
+            <span className="text-slate-500">|</span>
+            <Link href="">
+              <BsFacebook />
+            </Link>
+            <span className="text-slate-500">|</span>
+            <Link href="">
+              <BsTwitter />
+            </Link>
+            <span className="text-slate-500">|</span>
+            <Link href="">
+              <BsLinkedin />
+            </Link>
+            <span className="text-slate-500">|</span>
+            <Link href="">
+              <BsInstagram />
+            </Link>
+          </div>
+          <div className="flex justify-center items-center gap-5">
+            <Link
+              className="flex items-center gap-2 font-semibold text-lg"
+              href=""
+            >
+              <BsTelephoneFill /> 11987654321
+            </Link>
+            <span className="text-slate-500">|</span>
+            <Link
+              className="flex items-center gap-2 font-semibold text-lg"
+              href=""
+            >
+              <ImLocation /> 83 Andy St. Madison NJ 78002
+            </Link>
+          </div>
+        </div>
+      </div>
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <a
