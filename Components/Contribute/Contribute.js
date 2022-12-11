@@ -1,8 +1,8 @@
 
 const Contribute = () => {
     return (
-        <div data-aos="fade-up" className="px-4 py-16  bg-slate-200 w-full mx-auto  md:px-24 lg:px-8 lg:py-24">
-            <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
+        <div data-aos="fade-up" className="px-4 py-16  bg-slate-200 w-full mx-auto  md:px-24 lg:px-8 lg:py-24 ">
+            <div className="grid gap-12 row-gap-8 lg:grid-cols-2 container mx-auto">
                 <div className="relative p-5">
                     <img
                         className="rounded-full ml-10"

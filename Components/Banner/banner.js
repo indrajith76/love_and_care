@@ -19,8 +19,8 @@ const Banner = () => {
                 }}
             >
                 <SwiperSlide>
-                    <div className={styles.slide1}>
-                        <div className='lg:w-2/3'>
+                    <div className={`${styles.slide1} max-h-[800px]`}>
+                        <div className='lg:w-2/3 container mx-auto'>
                             <p className='lg:text-xl'>Change the life, Change the world</p>
                             <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
                             <hr className='border border-red-600 my-7' />
@@ -31,8 +31,8 @@ const Banner = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={styles.slide2}>
-                        <div className='lg:w-2/3'>
+                    <div className={`${styles.slide2} max-h-[800px]`}>
+                        <div className='lg:w-2/3 container mx-auto'>
                             <p className='lg:text-xl'>Change the life, Change the world</p>
                             <h2 className='text-3xl lg:text-8xl  font-bold'>Every Good <br /> Act Is A Charity</h2>
                             <hr className='border border-red-600 my-7' />
@@ -43,8 +43,8 @@ const Banner = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={styles.slide3}>
-                        <div className='lg:w-2/3'>
+                    <div className={`${styles.slide3} max-h-[800px]`}>
+                        <div className='lg:w-2/3 container mx-auto'>
                             <p className='lg:text-xl'>Change the life, Change the world</p>
                             <h2 className='text-3xl lg:text-8xl font-bold'>Every Good <br /> Act Is A Charity</h2>
                             <hr className='border border-red-600 my-7' />
