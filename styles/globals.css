@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   padding: 0;
@@ -25,6 +24,11 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white; 
+    color: white;
   }
+}
+
+/* This style is for News & Happiness section */
+.newsAndHappinessBox:hover .cardImage {
+  transform: scale(1.2);
 }
