@@ -30,7 +30,7 @@ const Volunteers = () => {
                     <div className="relative w-72 h-72 overflow-hidden transition duration-200 transform rounded-full shadow-lg  hover:shadow-2xl">
                         <img
                             className="object-cover hover:scale-110 transition duration-300 ease-in-out"
-                            src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            src="https://media.discordapp.net/attachments/1050645620626563089/1051479691401379880/FaizulOsmanWithoutBackground.png?width=327&height=406"
                             alt=""
                         />
                         <div className="absolute inset-0  flex justify-center items-center m-6 rounded-full  transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -51,7 +51,7 @@ const Volunteers = () => {
                     </div>
                     <img className="absolute border-8 bottom-28 left-[105px] bg-white rounded-full p-5 " src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/thm-shape-4.png" alt="" />
                     <div className="mt-20 text-center">
-                        <h1 className="text-gray-800 text-2xl font-bold">Irene Strong</h1>
+                        <h1 className="text-gray-800 text-2xl font-bold">Faizul Osman</h1>
                         <h1 className="text-gray-600 text-xl">Volunteer</h1>
                     </div>
                 </a>
@@ -59,7 +59,7 @@ const Volunteers = () => {
                     <div className="relative w-72 h-72 overflow-hidden transition duration-200 transform rounded-full shadow-lg  hover:shadow-2xl">
                         <img
                             className="object-cover h-full  hover:scale-110 transition duration-300 ease-in-out"
-                            src="https://media.istockphoto.com/id/1403874531/photo/mature-man-smiling-while-standing-outside-in-the-summertime.jpg?b=1&s=170667a&w=0&k=20&c=jepCpQbb_CcenUagOHRfEN43D704SGm0-rs7H7ZGVy8="
+                            src="https://i.ibb.co/7Xp3Lnr/ALm5wu0-L0-U16la-Hy1-UWh-UJcj-BTJHz-C1-QA1vmse-T5mmk7-BQ-s96-c.jpg"
                             alt=""
                         />
                         <div className="absolute inset-0  flex justify-center items-center m-6 rounded-full  transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -80,7 +80,7 @@ const Volunteers = () => {
                     </div>
                     <img className="absolute border-8 bottom-28 left-[105px] bg-white rounded-full p-5 " src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/thm-shape-4.png" alt="" />
                     <div className="mt-20 text-center">
-                        <h1 className="text-gray-800 text-2xl font-bold">Ian Dooley</h1>
+                        <h1 className="text-gray-800 text-2xl font-bold">Indrajith Ghoswami</h1>
                         <h1 className="text-gray-600 text-xl">Volunteer</h1>
                     </div>
                 </a>
@@ -88,7 +88,7 @@ const Volunteers = () => {
                     <div className="relative w-72 h-72 overflow-hidden transition duration-200 transform rounded-full shadow-lg  hover:shadow-2xl">
                         <img
                             className="object-cover   hover:scale-110 transition duration-300 ease-in-out"
-                            src="https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            src="https://media.discordapp.net/attachments/1050645620626563089/1051470728836415488/sauravMondal.jpg?width=343&height=406"
                             alt=""
                         />
                         <div className="absolute inset-0  flex justify-center items-center m-6 rounded-full  transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -109,7 +109,7 @@ const Volunteers = () => {
                     </div>
                     <img className="absolute border-8 bottom-28 left-[105px] bg-white rounded-full p-5 " src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/thm-shape-4.png" alt="" />
                     <div className="mt-20 text-center">
-                        <h1 className="text-gray-800 text-2xl font-bold">Vince Fleming</h1>
+                        <h1 className="text-gray-800 text-2xl font-bold">Saurav Mondol</h1>
                         <h1 className="text-gray-600 text-xl">Volunteer</h1>
                     </div>
                 </a>
@@ -117,7 +117,7 @@ const Volunteers = () => {
                     <div className="relative w-72 h-72 overflow-hidden transition duration-200 transform rounded-full shadow-lg  hover:shadow-2xl">
                         <img
                             className="object-cover  hover:scale-110 transition duration-300 ease-in-out"
-                            src="https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            src="https://i.ibb.co/PrVVm0X/Samrat.png"
                             alt=""
                         />
                         <div className="absolute inset-0  flex justify-center items-center m-6 rounded-full  transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -138,7 +138,7 @@ const Volunteers = () => {
                     </div>
                     <img className="absolute border-8 bottom-28 left-[105px] bg-white rounded-full p-5 " src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/thm-shape-4.png" alt="" />
                     <div className="mt-20 text-center">
-                        <h1 className="text-gray-800 text-2xl font-bold">Mitchell Luo</h1>
+                        <h1 className="text-gray-800 text-2xl font-bold">Samrat Joydhar</h1>
                         <h1 className="text-gray-600 text-xl">Volunteer</h1>
                     </div>
                 </a>
