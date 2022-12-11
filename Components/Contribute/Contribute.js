@@ -1,3 +1,9 @@
+import { Lobster } from '@next/font/google'
+
+const lobster = Lobster({
+    weight: ['400'],
+    subsets: ['latin'],
+})
 
 const Contribute = () => {
     return (
@@ -10,7 +16,7 @@ const Contribute = () => {
                         alt=""
                     />
                     <img
-                        className="hover:animate-spin rounded-full absolute top-0 border-8"
+                        className="rounded-full absolute top-0 border-8 hover:animate-spin"
                         src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/causes-style1_image-2.jpg"
                         alt=""
                     />
@@ -25,6 +31,7 @@ const Contribute = () => {
                         alt=""
                     />
                     <img
+                        data-aos="fade-right"
                         className="rounded-full absolute left-10 bottom-10"
                         src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/thm-shape-7.png"
                         alt=""
@@ -32,7 +39,7 @@ const Contribute = () => {
                 </div>
                 <div className="flex flex-col justify-center ml-5">
                     <div className="max-w-xl mb-6">
-                        <h1 className="text-lg md:text-2xl text-red-500 font-bold">Help With Featured Cause</h1>
+                        <h1 className={`${lobster.className} text-lg md:text-2xl text-red-500 font-bold`}>Help With Featured Cause</h1>
                         <h2 className="text-2xl md:text-5xl mt-5  text-gray-800 font-black">
                             Contribute for the <br />
                             differently abled
@@ -62,8 +69,8 @@ const Contribute = () => {
                         </button>
                         <button className="btn ml-5 bg-gray-500 hover:bg-none text-white border-none  text-md font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 ">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                                <path stroke-linecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                <path stroke-linecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
                             </svg>
                             <span className="ml-3">Cause Video</span>
                         </button>
