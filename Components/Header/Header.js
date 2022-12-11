@@ -1,7 +1,40 @@
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
+import { BsCheckCircleFill } from "react-icons/bs";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navitems = (
+    <>
+      <li>
+        <Link href="/">HOME</Link>
+      </li>
+      <li>
+        <Link href="/">ABOUT</Link>
+      </li>
+      <li>
+        <Link href="/">PAGES</Link>
+      </li>
+      <li>
+        <Link href="/">CAUSES</Link>
+      </li>
+      <li>
+        <Link href="/">BLOGS</Link>
+      </li>
+      <li>
+        <Link href="/">CONTACT</Link>
+      </li>
+      <li>
+        <Link
+          href="/"
+          className="flex items-center justify-center gap-2 bg-red-600 text-white py-4 px-5 rounded-lg"
+        >
+          <BsCheckCircleFill /> DONATE NOW
+        </Link>
+      </li>
+    </>
+  );
   return (
     <div>
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -12,78 +45,15 @@ const Header = () => {
             title="Company"
             class="inline-flex items-center"
           >
-            <svg
-              class="w-8 text-deep-purple-accent-400"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              Company
-            </span>
+            <Image
+              src="/logo/header-logo.png"
+              alt="Picture of the author"
+              width={250}
+              height={250}
+            />
           </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                Product
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                Features
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Product pricing"
-                title="Product pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="About us"
-                title="About us"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                About us
-              </a>
-            </li>
-          </ul>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <a
-                href="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Sign up
-              </a>
-            </li>
+          <ul class="flex items-center hidden space-x-8 lg:flex text-slate-800 font-semibold">
+            {navitems}
           </ul>
           <div class="lg:hidden">
             <button
@@ -108,35 +78,18 @@ const Header = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div class="absolute top-0 left-0 w-full">
+              <div class="absolute top-0 left-0 w-full z-30">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                      <a
-                        href="/"
-                        aria-label="Company"
-                        title="Company"
-                        class="inline-flex items-center"
-                      >
-                        <svg
-                          class="w-8 text-deep-purple-accent-400"
-                          viewBox="0 0 24 24"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeMiterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12" />
-                          <rect x="3" y="17" width="7" height="6" />
-                          <rect x="14" y="1" width="7" height="6" />
-                          <rect x="14" y="11" width="7" height="12" />
-                        </svg>
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Company
-                        </span>
-                      </a>
+                      <Link href="/">
+                        <Image
+                          src="/logo/header-logo.png"
+                          alt="Picture of the author"
+                          width={150}
+                          height={150}
+                        ></Image>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -154,59 +107,8 @@ const Header = () => {
                       </button>
                     </div>
                   </div>
-                  <nav>
-                    <ul class="space-y-4">
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Product
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Features
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          About us
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
-                        </a>
-                      </li>
-                    </ul>
+                  <nav className="text-slate-800">
+                    <ul class="space-y-4">{navitems}</ul>
                   </nav>
                 </div>
               </div>
