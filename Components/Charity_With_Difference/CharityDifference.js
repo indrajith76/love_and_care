@@ -1,4 +1,9 @@
+import { Lobster } from '@next/font/google'
 
+const lobster = Lobster({
+    weight: ['400'],
+    subsets: ['latin'],
+})
 const CharityDifference = () => {
 
     const styling = {
@@ -12,7 +17,7 @@ const CharityDifference = () => {
         <div  className="bg-white px-4 py-16 mx-auto w-full md:px-24 lg:px-8 lg:py-20 container mx-auto">
             <div className="relative  mb-8 mx-auto text-center md:mb-20 w-full">
                 <div style={styling}></div>
-                <p className={`absolute top-5 left-0.5 right-0.5  text-red-500 text-md md:text-2xl font-semibold tracking-wide uppercase `}>
+                <p className={`${lobster.className} absolute top-5 left-0.5 right-0.5  text-red-500 text-md md:text-2xl font-semibold tracking-wide uppercase `}>
                     We Change Your Life & World
                 </p>
                 <p className=" mt-4 md-mt-6 text-gray-900 font-black text-2xl md:text-5xl">
