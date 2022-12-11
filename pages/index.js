@@ -10,7 +10,7 @@ import Volunteers from "../Components/Volunteers/Volunteers";
 export default function Home() {
 	useEffect(() =>{
 		Aos.init({
-			duration : 1500
+			duration : 1000
 		});
 	}, [])
 	return (
