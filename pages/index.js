@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Banner from "../Components/Banner/banner";
 import CharityDifference from "../Components/Charity_With_Difference/CharityDifference";
 import Contribute from "../Components/Contribute/Contribute";
+import Volunteers from "../Components/Volunteers/Volunteers";
 
 
 export default function Home() {
@@ -17,9 +18,7 @@ export default function Home() {
 			<Banner></Banner>
 			<CharityDifference></CharityDifference>
 			<Contribute></Contribute>
-			<h1>This is Saurav Mondal</h1>
-			<h1>This is Samrat Joydhar</h1>
-			<h1>This is Shohug Mahbub</h1>
+			<Volunteers></Volunteers>
 		</div>
 	);
 }

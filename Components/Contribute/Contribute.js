@@ -1,7 +1,13 @@
+import { Lobster } from '@next/font/google'
+
+const lobster = Lobster({
+    weight: ['400'],
+    subsets: ['latin'],
+})
 
 const Contribute = () => {
     return (
-        <div data-aos="fade-up" className="px-4 py-16  bg-slate-200 w-full mx-auto  md:px-24 lg:px-8 lg:py-24">
+        <div data-aos="fade-up" className="px-4 py-16 w-full mx-auto bg-slate-200  md:px-24 lg:px-8 lg:py-24">
             <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
                 <div className="relative p-5">
                     <img
@@ -10,7 +16,7 @@ const Contribute = () => {
                         alt=""
                     />
                     <img
-                        className="hover:animate-spin rounded-full absolute top-0 border-8"
+                        className="rounded-full absolute top-0 border-8 hover:animate-spin"
                         src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/causes-style1_image-2.jpg"
                         alt=""
                     />
@@ -25,6 +31,7 @@ const Contribute = () => {
                         alt=""
                     />
                     <img
+                        data-aos="fade-right"
                         className="rounded-full absolute left-10 bottom-10"
                         src="https://loveicon.smartdemowp.com/wp-content/uploads/2021/06/thm-shape-7.png"
                         alt=""
@@ -32,7 +39,7 @@ const Contribute = () => {
                 </div>
                 <div className="flex flex-col justify-center ml-5">
                     <div className="max-w-xl mb-6">
-                        <h1 className="text-lg md:text-2xl text-red-500 font-bold">Help With Featured Cause</h1>
+                        <h1 className={`${lobster.className} text-lg md:text-2xl text-red-500 font-bold`}>Help With Featured Cause</h1>
                         <h2 className="text-2xl md:text-5xl mt-5  text-gray-800 font-black">
                             Contribute for the <br />
                             differently abled
