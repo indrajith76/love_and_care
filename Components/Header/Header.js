@@ -5,8 +5,7 @@ import {
   BsCheckCircleFill,
   BsFacebook,
   BsInstagram,
-  BsLinkedin,
-  BsTelephone,
+  BsLinkedin, 
   BsTelephoneFill,
   BsTwitter,
 } from "react-icons/bs";
@@ -46,7 +45,7 @@ const Header = () => {
   );
   return (
     <div className="sticky top-0 z-40 bg-[#ffffffd7] ">
-      <div className="bg-slate-700">
+      <div className="bg-slate-700 hidden lg:block">
         <div className="flex flex-col lg:flex-row lg:justify-between container mx-auto py-3 px-5">
           <div className="flex justify-center items-center gap-5">
             <Link className="font-bold text-lg" href="">
