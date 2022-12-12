@@ -14,7 +14,7 @@ const lobster = Lobster({
 })
 const ourMission = () => {
 	return (
-		<div className=" text-center py-12 md:w-[1140px] mx-auto">
+		<div className=" text-center py-12 lg:w-[1140px] mx-auto">
 			<div className="max-w-xl mx-auto mb-6">
 				<h1 className={`${lobster.className} text-lg md:text-2xl text-red-500 font-bold`}>Help With Featured Cause</h1>
 				<h2 className="text-5xl text-gray-800 font-bold py-5">Our Mission & Goals</h2>
