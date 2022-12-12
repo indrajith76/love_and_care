@@ -25,7 +25,7 @@ const ourMission = () => {
 					<Image className="img-fluid w-full" src={mission1}></Image>
 				</div>
 
-				<div data-aos="fade-left" className="md:mt-12 md:-ml-32">
+				<div data-aos="fade-up" className="md:mt-12 md:-ml-32">
 					<div className="card bg-base-100 shadow-xl py-5 rounded rounded-0">
 						<div className="card-body">
 							<div className="flex ">
