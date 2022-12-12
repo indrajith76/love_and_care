@@ -5,7 +5,6 @@ import mission3 from '../../public/OurMissionImg/mission-goal-shape-1.png';
 import mission4 from '../../public/OurMissionImg/mission-goal-shape-2.png';
 import mission5 from '../../public/OurMissionImg/mission-goal-shape-3.png';
 import { FaUser, FaBeer, FaBong, FaHeart } from 'react-icons/fa';
-
 import { Lobster } from '@next/font/google'
 
 const lobster = Lobster({
@@ -20,7 +19,7 @@ const ourMission = () => {
 				<h2 className="text-5xl text-gray-800 font-bold py-5">Our Mission & Goals</h2>
 				
 			</div>
-			<div className="grid lg:grid-cols-2 sm:grid-cols-1 py-6 text-start">
+			<div className="grid sm:grid-cols-1 lg:grid-cols-2 py-6 text-start">
 				<div data-aos="fade-right">
 					<Image className="img-fluid w-full" src={mission1}></Image>
 				</div>
