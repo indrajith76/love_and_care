@@ -20,7 +20,7 @@ const ourMission = () => {
 				<h2 className="text-5xl text-gray-800 font-bold py-5">Our Mission & Goals</h2>
 				
 			</div>
-			<div className="grid md:grid-cols-2 sm:grid-cols-1 py-6 text-start">
+			<div className="grid lg:grid-cols-2 sm:grid-cols-1 py-6 text-start">
 				<div data-aos="fade-right">
 					<Image className="img-fluid w-full" src={mission1}></Image>
 				</div>
