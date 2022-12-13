@@ -5,7 +5,7 @@ import img2 from '../../../public/EventImg/ev3.jpg'
 
 const Challenge = () => {
     return (
-        <div className='my-12'>
+        <div className='my-12 text-slate-800'>
 
             <div className="flex flex-col lg:flex-row gap-5">
                 <div className='lg:w-1/2'>

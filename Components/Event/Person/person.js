@@ -3,7 +3,7 @@ inport
 
 const Person = () => {
     return (
-        <div>
+        <div className="text-slate-800">
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <Image className="w-full" src={whyBG}></Image>

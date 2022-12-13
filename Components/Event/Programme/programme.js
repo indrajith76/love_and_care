@@ -17,8 +17,8 @@ const Programme = () => {
 
 
     return (
-        <div >
-            <div className="card rounded-none bg-base-100 shadow-md">
+        <div className="text-slate-800">
+            <div className="card rounded-none bg-base-100 text-slate-800 shadow-md">
                 <div className="relative">
                     <figure><Image className="image-full" src={event1}></Image></figure>
                     <button className=" px-4 py-1 text-white font-semi-bold absolute left-10 bottom-10 rounded-2xl bg-purple-600">HEALTH</button>
