@@ -14,7 +14,7 @@ const CharityDifference = () => {
 
     }
     return (
-        <div  className="bg-white px-4 py-16 mx-auto w-full md:px-24 lg:px-8 lg:py-20 container mx-auto">
+        <div className="bg-white px-4 py-16 mx-auto w-full md:px-24 lg:px-8 lg:py-20 container mx-auto">
             <div className="relative  mb-8 mx-auto text-center md:mb-20 w-full">
                 <div style={styling}></div>
                 <p className={`${lobster.className} absolute top-5 left-0.5 right-0.5  text-red-500 text-md md:text-2xl font-semibold tracking-wide uppercase `}>
