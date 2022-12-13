@@ -12,6 +12,7 @@ import GetInspire from "../Components/GetInspire/getInspire";
 import NewsAndHappiness from "../Components/NewsAndHappiness/newsAndHappiness";
 import SupportPartner from "../Components/SupportPartner/supportPartner";
 import Head from "next/head";
+import Event from "./event";
 
 export default function Home() {
   useEffect(() => {
@@ -20,11 +21,12 @@ export default function Home() {
     });
   }, []);
   return (
-    <div>
+
+    <>
       <Head>
-		<link rel="shortcut icon" href="/logo/favicon.png" />
-		<title>Love&Care - A volunteer organization</title>
-	  </Head>
+        <link rel="shortcut icon" href="/logo/favicon.png" />
+        <title>Love&Care - A volunteer organization</title>
+      </Head>
       <Header></Header>
       <Banner></Banner>
       <CharityDifference></CharityDifference>
@@ -35,6 +37,6 @@ export default function Home() {
       <NewsAndHappiness />
       <SupportPartner />
       <Footer />
-    </div>
+    </>
   );
 }
