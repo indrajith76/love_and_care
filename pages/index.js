@@ -21,7 +21,6 @@ export default function Home() {
     });
   }, []);
   return (
-
     <>
       <Head>
         <link rel="shortcut icon" href="/logo/favicon.png" />
