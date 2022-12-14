@@ -5,6 +5,7 @@ import newsAndHappinessImg2 from "../../public/newsAndHappinessImg/newsAndHappin
 import newsAndHappinessImg3 from "../../public/newsAndHappinessImg/newsAndHappinessImg3.jpg";
 import { FaUser, FaComment } from "react-icons/fa";
 import Image from "next/image";
+import styles from "../../styles/CommonBanner.module.css";
 
 const NewsAndHappiness = () => {
   return (
@@ -27,10 +28,12 @@ const NewsAndHappiness = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-        <div className="newsAndHappinessBox card rounded-none card-compact  shadow-xl">
+        <div
+          className={`${styles.newsAndHappinessBox} card rounded-none card-compact  shadow-xl`}
+        >
           <figure className="relative">
             <Image
-              className="cardImage w-full lg:max-h-[202px] duration-500 transform hover:scale-125"
+              className={`${styles.cardImage} w-full lg:max-h-[202px] duration-500 transform hover:scale-125`}
               src={newsAndHappinessImg1}
               width={520}
               height={200}
@@ -69,10 +72,12 @@ const NewsAndHappiness = () => {
             </div>
           </div>
         </div>
-        <div className="newsAndHappinessBox card rounded-none card-compact  shadow-xl">
+        <div
+          className={`${styles.newsAndHappinessBox} card rounded-none card-compact  shadow-xl`}
+        >
           <figure className="relative">
             <Image
-              className="cardImage w-full lg:max-h-[202px] duration-500 transform hover:scale-125"
+              className={`${styles.cardImage} w-full lg:max-h-[202px] duration-500 transform hover:scale-125`}
               src={newsAndHappinessImg2}
               width={520}
               height={200}
@@ -111,10 +116,12 @@ const NewsAndHappiness = () => {
             </div>
           </div>
         </div>
-        <div className="newsAndHappinessBox card rounded-none card-compact  shadow-xl">
+        <div
+          className={`${styles.newsAndHappinessBox} card rounded-none card-compact  shadow-xl`}
+        >
           <figure className="relative">
             <Image
-              className="cardImage w-full lg:max-h-[202px] duration-500 transform hover:scale-125"
+              className={`${styles.cardImage} w-full lg:max-h-[202px] duration-500 transform hover:scale-125`}
               src={newsAndHappinessImg3}
               width={520}
               height={200}

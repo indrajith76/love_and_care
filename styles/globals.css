@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   padding: 0;
@@ -26,6 +25,6 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white; 
+    color: white;
   }
 }

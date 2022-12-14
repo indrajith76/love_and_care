@@ -1,0 +1,42 @@
+.commonBanner {
+  color: white;
+  height: 326px;
+  width: 100vw;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(../public/BlogImg/banner-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.borderRed {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ab3232;
+  margin: 25px 0;
+}
+
+.borderWhite {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffffff;
+  margin: 25px 0;
+}
+
+/* This style is for News & Happiness section */
+.newsAndHappinessBox:hover .cardImage {
+  transform: scale(1.2);
+}
+
+.educationHealth {
+  /* height: 430px; */
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(../public/BlogImg/earth-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
