@@ -63,7 +63,7 @@ const blog = () => {
             <SingleBlog blog={blog}></SingleBlog>
           ))}
         </div>
-        <div className="lg:w-1/3 bg-[#eef1f7] text-black py-1 lg:py-0">
+        <div className="lg:w-1/3 bg-[#eef1f7] h-fit text-black py-1 lg:py-0">
           <BlogAside />
         </div>
       </div>
