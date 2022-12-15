@@ -6,6 +6,7 @@ import event4 from '../../../public/EventImg/yellow.png'
 import event5 from '../../../public/EventImg/location.png'
 import Link from "next/link";
 import { BsCheckCircleFill } from "react-icons/bs"
+import styles from "../../../styles/CommonBanner.module.css";
 
 
 
@@ -18,9 +19,12 @@ const Programme = () => {
 
     return (
         <div className="text-slate-800">
-            <div className="card rounded-none text-slate-800 shadow-md">
+            <div className={`card rounded-none text-slate-800 shadow-md ${styles.newsAndHappinessBox}`}>
                 <div className="relative">
-                    <figure><Image className="image-full" src={event1}></Image></figure>
+                    <figure><Image className={`image-full ${styles.cardImage}`} src={event1}></Image></figure>
+                    <div className="absolute flex items-center justify-center top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden opacity-0 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-70">
+                        <span className="text-9xl">+</span>
+                    </div>
                     <button className=" px-4 py-1 text-white font-semi-bold absolute left-10 bottom-10 rounded-2xl bg-purple-600">HEALTH</button>
                 </div>
                 <div className="card-body my-10">

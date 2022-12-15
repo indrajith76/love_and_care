@@ -14,7 +14,7 @@ const WhyDonate = () => {
     return (
         <div className="text-slate-800">
             <div className="relative">
-                <h2 className="text-2xl lg:text-3xl font-bold">Why Donate with LoveIcon</h2>
+                <h2 className="text-2xl lg:text-3xl font-bold">Why Donate with Love&Care</h2>
                 <Image className="absolute -top-2 -left-4 w-12 opacity-10" src={whyBG}></Image>
             </div>
             <p className="mb-5 py-1 text-lg">

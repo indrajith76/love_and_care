@@ -41,6 +41,20 @@ const Header = () => {
 					<BsCheckCircleFill /> DONATE NOW
 				</Link>
 			</li>
+			<li>
+				<label htmlFor="my-modal-3" ><div className='grid grid-cols-3 w-8 h-8 cursor-pointer'>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+					<p className='h-2 w-2 rounded-full bg-cyan-600'></p>
+				</div></label>
+
+			</li>
 		</>
 	);
 	return (
