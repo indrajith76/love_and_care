@@ -21,10 +21,10 @@ const Contact = () => {
 							>
 								Support LoveIcon With Heart!
 							</h1>
-							<h2 className="text-5xl text-gray-800 font-bold py-5">
+							<h2 className="text-5xl text-slate-800 font-bold py-5">
 								Get In Touch With Us
 							</h2>
-							<p className="text-lg">
+							<p className="text-lg text-slate-800">
 								We are here to answer your questions. If you have any questions
 								please leave us a message. We will contact with you as soon as
 								possible.
@@ -36,6 +36,7 @@ const Contact = () => {
 										<div className="grid md:grid-cols-2 gap-6 font-semibold">
 											<div className="form-control ">
 												<input
+													class="bg-white text-slate-800"
 													type="text"
 													placeholder="Your Name"
 													className="input input-bordered"
@@ -43,6 +44,7 @@ const Contact = () => {
 											</div>
 											<div className="form-control ">
 												<input
+													class="bg-white text-slate-800"
 													type="email"
 													placeholder="Email"
 													className="input input-bordered"
@@ -50,6 +52,7 @@ const Contact = () => {
 											</div>
 											<div className="form-control ">
 												<input
+													class="bg-white text-slate-800"
 													type="text"
 													placeholder="Phone"
 													className="input input-bordered"
@@ -57,6 +60,7 @@ const Contact = () => {
 											</div>
 											<div className="form-control ">
 												<input
+													class="bg-white text-slate-800"
 													type="email"
 													placeholder="Subject"
 													className="input input-bordered"
@@ -65,11 +69,11 @@ const Contact = () => {
 										</div>
 
 										<textarea
-											className="textarea textarea-bordered w-full h-32 mt-8 font-semibold"
+											className="textarea textarea-bordered w-full h-32 mt-8 font-semibold bg-white text-slate-800"
 											placeholder="Message....."
 										></textarea>
 										<div className="mt-6">
-											<button className="btn btn-lg border-0 bg-red-600">
+											<button className="btn btn-lg border-0 bg-red-600 text-white">
 												SEND MESSAGE
 											</button>
 										</div>
@@ -81,17 +85,17 @@ const Contact = () => {
 
 					{/* Right side information */}
 
-					<div class="bg-gray-200 rounded-lg md:p-8 text-start ">
+					<div class="bg-gray-200 rounded-lg md:p-8 text-start">
 						<div className="bg-white p-6">
 							<div className="flex justify-between mt-6">
-								<h4 className="flex items-center font-bold text-2xl">
+								<h4 className="flex items-center font-bold text-2xl text-slate-800">
 									<span className="mr-2 bg-red-600 text-white p-2 rounded">
 										<FaMapMarkerAlt />
 									</span>
 									Visit Office
 								</h4>
 							</div>
-							<p className="py-4 font-semibold">
+							<p className="py-4 font-semibold text-slate-800">
 								83 Andy Street, Madison <br /> New Jersey - 78002
 							</p>
 							<hr />
@@ -99,28 +103,28 @@ const Contact = () => {
 
 						<div className="bg-white p-6">
 							<div className="flex justify-between ">
-								<h4 className="flex items-center font-bold text-2xl">
+								<h4 className="flex items-center font-bold text-2xl text-slate-800">
 									<span className="mr-2 bg-red-600 text-white p-2 rounded">
 										<FaPhoneAlt />
 									</span>
 									Phone
 								</h4>
 							</div>
-							<p className="py-4 font-semibold">
+							<p className="py-4 font-semibold text-slate-800">
 								Support +1 700 888 1234 <br /> Events +1 700 888 1200
 							</p>
 							<hr />
 						</div>
 						<div className="bg-white p-6">
 							<div className="flex justify-between ">
-								<h4 className="flex items-center font-bold text-2xl">
+								<h4 className="flex items-center font-bold text-2xl text-slate-800">
 									<span className="mr-2 bg-red-600 text-white p-2 rounded">
 										<FaEnvelopeOpen />
 									</span>
 									Email
 								</h4>
 							</div>
-							<p className="py-4 font-semibold">
+							<p className="py-4 font-semibold text-slate-800">
 								info@loveandcare.org <br /> support@loveandcare.org
 							</p>
 							<hr />
